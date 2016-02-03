@@ -1,0 +1,71 @@
+html, body { 
+	margin: 0; 
+	height: 100%; 
+	width: 100%; 
+	font-family: Colfax,effra,Helvetica Neue,Helvetica,sans-serif;
+	background: #fff;
+}
+
+.quiz-tile-wrapper {
+  height: 400px;
+  width: 460px;
+  margin-top: 10%;
+  margin: 10% auto;
+  background: #EFEFF7;
+	display: flex;
+	justify-content: space-between;
+}
+.prof-pic-wrapper {
+	height: 90px;
+	width: 90px;
+}
+.prof-pic{
+	border-radius: 50%;
+	height: 70%;
+	margin: 15px;
+}
+.card {
+	height: 85%;
+	width: 75%;
+	background: #fff;
+	margin: 20px;
+	padding: 10px;
+  line-height: 1;
+
+}
+
+hr.hr-style {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.bg-quiz-image {
+	height: 40%;
+	width: 100%;
+	background-size: cover;
+	background: url(http://www.lasertimepodcast.com/wp-content/uploads/2015/09/scott-pilgrim-vs-the-world-laser-time-gameplay.jpg);
+}
+.title{
+	font-size: 1.3em;
+	opacity: 0.7;
+}
+.score{
+	color: #4BC092;
+}
+.author{
+	font-weight: 700;
+	font-size: 14px;
+}
+.timer{
+	float: right;
+	margin-right: 8px;
+	opacity: 0.4;
+}
+.brand {
+	opacity: 0.4;
+}
+.snippet {
+  font-weight: 400;
+  font-size: .9em;
+}
