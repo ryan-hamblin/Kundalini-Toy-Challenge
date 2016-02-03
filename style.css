@@ -27,11 +27,10 @@ html, body {
 .card {
 	height: 85%;
 	width: 75%;
-	background: #fff;
-	margin: 20px;
-	padding: 10px;
-  line-height: 1;
-
+	background: #fefdfb;
+	margin: 20px 22px 20px 6px;
+  padding: 0px 10px 10px 10px;
+  line-height: 1.2em;
 }
 
 hr.hr-style {
@@ -40,15 +39,22 @@ hr.hr-style {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+.quiz-image-wrapper{
+	height:50%;
+	width:100%;
+	margin: 0;
+}
 .bg-quiz-image {
-	height: 40%;
-	width: 100%;
+  height: 165px;
+  width: 100%;
+	background: url(assets/pilgram.jpg);
 	background-size: cover;
-	background: url(http://www.lasertimepodcast.com/wp-content/uploads/2015/09/scott-pilgrim-vs-the-world-laser-time-gameplay.jpg);
 }
 .title{
-	font-size: 1.3em;
-	opacity: 0.7;
+  font-size: 1.3em;
+  line-height: 0.2;
+  font-weight: 400;
+  opacity: 0.7;
 }
 .score{
 	color: #4BC092;
@@ -64,6 +70,8 @@ hr.hr-style {
 }
 .brand {
 	opacity: 0.4;
+	font-weight: 200;
+  font-size: 14px;
 }
 .snippet {
   font-weight: 400;
